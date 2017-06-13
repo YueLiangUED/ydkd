@@ -1,0 +1,104 @@
+html,body{
+    background-color: #e1e1e0;
+}
+header .swiper-container .swiper-slide img{
+    width: 37.5rem;
+    height: 14.1rem;
+}
+header .swiper-pagination span{
+    width: 0.7rem;
+    height: 0.7rem;
+    opacity: 1;
+}
+header span.swiper-pagination-bullet{
+    margin: 0 1rem;!important;
+    background-color: #f8a0b6;
+}
+header span.swiper-pagination-bullet-active{
+    background-color: #ffffff;
+}
+section .title{
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 0.1rem;
+    padding-left: 1.4rem;
+    width: 37.5rem;
+    height: 4.5rem;
+    background-color: #ffffff;
+}
+section .title p{
+    margin-left: 1.1rem;
+    font-size: 1.7rem;
+    line-height: 4.5rem;
+    color: #333333;
+}
+section .title span{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    display: inline-block;
+    width: 0.3rem;
+    height: 1.6rem;
+    line-height: 4.5rem;
+    background-color: #446fe3;
+}
+
+section .main{
+    margin-bottom: 1rem;
+}
+section .main ul li{
+    float: left;
+    width: 12.45rem;
+    height: 9.9rem;
+    text-align: center;
+    background-color: #ffffff;
+}
+section .main ul li:nth-child(2){
+    margin: 0 0.1rem;
+    width: 12.4rem;
+}
+section .main ul li span{
+    margin: 2.5rem auto 1.5rem;
+    display: block;
+}
+section .main ul #baozhuang span{
+    width: 1.95rem;
+    height: 2.35rem;
+    background: url("../images/icon1-1.png") center no-repeat;
+    background-size: cover;
+}
+section .main ul #baozhang span{
+    width: 2.75rem;
+    height: 2.65rem;
+    background: url("../images/icon1-2.png") center no-repeat;
+    background-size: cover;
+}
+section .main ul #xiaoqu span{
+    width: 3.3rem;
+    height: 2.65rem;
+    background: url("../images/icon1-3.png") center no-repeat;
+    background-size: cover;
+}
+section .main ul #xufei span{
+    width: 3.25rem;
+    height: 2.6rem;
+    background: url("../images/icon2-1.png") center no-repeat;
+    background-size: cover;
+}
+section .main ul #xiugai span{
+    width: 2.45rem;
+    height: 2.4rem;
+    background: url("../images/icon2-2.png") center no-repeat;
+    background-size: cover;
+}
+section .main ul #paizhang span{
+    width: 2.45rem;
+    height: 2.45rem;
+    background: url("../images/icon2-3.png") center no-repeat;
+    background-size: cover;
+}
+section .main ul li p{
+    font-size: 1.3rem;
+    color: #555555;
+}

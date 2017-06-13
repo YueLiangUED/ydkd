@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>移动宽带</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--顶部轮播图-->
+<header>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img data-src="images//banner1.png" class="swiper-lazy"/>
+                <div class="swiper-lazy-preloader"></div>
+            </div>
+            <div class="swiper-slide">
+                <img data-src="images//banner1.png" class="swiper-lazy"/>
+                <div class="swiper-lazy-preloader"></div>
+            </div>
+            <div class="swiper-slide">
+                <img data-src="images//banner1.png" class="swiper-lazy"/>
+                <div class="swiper-lazy-preloader"></div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</header>
+<section>
+    <div class="title">
+        <span></span><!--
+        --><p>
+            自助查询服务
+        </p>
+    </div>
+    <div class="main">
+        <ul class="clear">
+            <li id="baozhuang">
+                <span></span>
+                <p>报装进度查询</p>
+            </li>
+            <li id="baozhang">
+                <span></span>
+                <p>宽带报障进度查询</p>
+            </li>
+            <li id="xiaoqu">
+                <span></span>
+                <p>开通小区查询</p>
+            </li>
+        </ul>
+    </div>
+    <div class="title">
+        <span></span><!--
+        --><p>
+            其他自助服务
+        </p>
+    </div>
+    <div class="main">
+        <ul class="clear">
+            <li id="xufei">
+                <span></span>
+                <p>宽带续费</p>
+            </li>
+            <li id="xiugai">
+                <span></span>
+                <p>修改联系电话</p>
+            </li>
+            <li id="paizhang">
+                <span></span>
+                <p>宽带自助排障</p>
+            </li>
+        </ul>
+    </div>
+</section>
+</body>
+</html>
+<script src="js/jquery-1.10.1.min.js"></script>
+<script src="js/swiper-3.4.2.jquery.min.js"></script>
+<script src="js/index.js"></script>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'horizontal',
+        loop: true,
+        pagination: '.swiper-pagination',
+        paginationClickable :true,
+        effect: 'slide',
+        autoplay: 3000,
+        autoplayDisableOnInteraction: false,
+        lazyLoading: true,
+        lazyLoadingInPrevNext: true,
+    });
+</script>
