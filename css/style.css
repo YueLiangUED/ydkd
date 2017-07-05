@@ -14,7 +14,7 @@ header .tab.one .swiper-container1{
     overflow: hidden;
 }
 header .tab.one .swiper-wrapper .swiper-slide img{
-    width: 24.25rem;
+    //width: 24.25rem;
     height: 14.2rem;
 }
 header .tab.one .swiper-pagination-custom{

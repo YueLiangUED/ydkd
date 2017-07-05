@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdf61f66-bd93-4ce5-b735-65f24070661b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="0612宽带.iws" />
@@ -26,18 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="swiper.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/swiper.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1727">
-              <caret line="14" column="6319" selection-start-line="14" selection-start-column="6307" selection-end-line="14" selection-end-column="6319" />
+            <state relative-caret-position="356">
+              <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -46,8 +37,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+            <state relative-caret-position="432">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -82,9 +73,9 @@
         <option value="$PROJECT_DIR$/../../0424/移动端测试/流量专区首页/css/swiper-3.4.2.min.css" />
         <option value="$PROJECT_DIR$/css/swiper-3.4.2.min.css" />
         <option value="$PROJECT_DIR$/css/swiper.min.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -284,12 +275,12 @@
       <workItem from="1497602981813" duration="595000" />
       <workItem from="1499135365101" duration="22000" />
       <workItem from="1499135390401" duration="1663000" />
-      <workItem from="1499137844247" duration="28531000" />
+      <workItem from="1499137844247" duration="29635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40601000" />
+    <option name="totallyTimeSpent" value="41705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1234" height="777" extended-state="0" />
@@ -501,14 +492,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/swiper.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1727">
-          <caret line="14" column="6319" selection-start-line="14" selection-start-column="6307" selection-end-line="14" selection-end-column="6319" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/s2-3.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -539,14 +522,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -555,10 +530,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/swiper.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1727">
+          <caret line="14" column="6319" selection-start-line="14" selection-start-column="6307" selection-end-line="14" selection-end-column="6319" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="356">
+          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
           <folding />
         </state>
       </provider>
