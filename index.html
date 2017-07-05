@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>新生专属校园卡</title>
     <link rel="stylesheet" href="css/reset.min.css">
     <link rel="stylesheet" href="css/swiper.min.css">
@@ -12,7 +13,7 @@
 <header>
     <div class="banner"></div>
     <div class="tab one">
-        <div class="swiper-container1">
+        <div class="swiper-container1" style="margin-left: -3rem;">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <img data-src="images//s1-1.png" class="swiper-lazy"/>
@@ -83,15 +84,19 @@
         watchSlidesProgress : true,
         watchSlidesVisibility : true,
         paginationClickable :true,
+        touchReleaseOnEdges:true,
         autoplayDisableOnInteraction: false,
         lazyLoading: true,
         lazyLoadingInPrevNext: true,
         onTouchEnd: function (swiper) {
             var TR=swiper.isEnd,
-                    TL=swiper.isBeginning;
-            if(TR) {
+                    TL=swiper.isBeginning,
+                    xx = swiper.touches.startX - swiper.touches.currentX,
+                    yy = swiper.touches.startY - swiper.touches.currentY;
+            console.log('x'+xx,'y'+yy);
+            if(TR && xx>yy && yy>=0) {
                 swiper.slideTo(0);
-            }else if(TL){
+            }else if(TL && xx<yy && yy<=0){
                 swiper.slideTo(2);
             }
         }
@@ -106,11 +111,12 @@
         watchSlidesVisibility : true,
         paginationClickable :true,
         effect : 'coverflow',
-        slidesPerView: 1.6,
+        slidesPerView: 2,
         centeredSlides: true,
+        touchReleaseOnEdges:true,
         coverflow: {
             rotate: 0,
-            stretch: 180,
+            stretch: 130,
             depth: 200,
             modifier: 2,
             slideShadows : false
