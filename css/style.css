@@ -87,6 +87,5 @@ section .tab{
     overflow: hidden;
 }
 section .tab .swiper-wrapper .swiper-slide img{
-    width: 100%;
-    height: 100%;
+    width: 37.5rem;
 }
